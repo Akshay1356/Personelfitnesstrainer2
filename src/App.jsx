@@ -1,3 +1,4 @@
+import trainerImage from './assets/trainer.jpeg';
 import { useState } from 'react';
 
 export default function PersonalTrainerWebsite() {
@@ -276,9 +277,9 @@ const handleChatbot = async () => {
 
         <div className="relative">
           <img
-            src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop"
-            alt="Trainer"
-            className="rounded-3xl shadow-2xl h-[650px] w-full object-cover"
+            src={trainerImage}
+            alt="HYROX Trainer"
+            className="rounded-3xl shadow-2xl h-[650px] w-full object-cover object-top"
           />
 
           <div className="absolute bottom-6 left-6 bg-black/80 backdrop-blur p-5 rounded-2xl border border-zinc-700">
